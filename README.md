@@ -31,3 +31,11 @@ Libraries and LLM's used:
 5. xml : It is used for parsing and creating xml documents.
 6. GitHub copilot : Used for text generation like comments and text modification.
 7. ChatGPT : Used for code analysis, increase efficiency and performance of the logic.
+
+
+Execution:
+----------
+1. get-papers-list "<query>" : Fetch papers based on query and print to console.
+2. get-papers-list -h (or) get-papers-list --help : Display usage instructions.
+3. get-papers-list -d "<query>" (or) get-papers-list --debug "<query>" : Print debug information during execution.
+4. get-papers-list -f "<file_name>" "<query>" (or) get-papers-list -file "<file_name>" "<query>" : Specify the filename to save the results. If this option is not provided, print the output to the console.
